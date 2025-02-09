@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMaster - Stay Organized</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">TaskMaster</div>
+        <div class="nav-links">
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#testimonials">Testimonials</a>
+            <a href="./html/login.html"><button class="login-btn">Login</button></a>
+            
+            <a href="./html/signup.html"><button class="signup-btn" >Sign Up</button></a>
+            
+        </div>
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="header">
+        <h1 id="parentHeading">Stay Organized, Stay Productive!</h1>
+        <h3 id="childHeading">Manage your tasks effortlessly with our simple yet powerful to-do list. Plan your day, set priorities, and accomplish more with ease!</h3>
+        <div class="cta-buttons">
+            <a href="./html/signup.html"><button class="get-started-btn">Get Started - It's Free</button></a>
+            
+            <button class="watch-demo-btn">Watch Demo</button>
+        </div>
+    </header>
+
+    <section id="features" class="features">
+        <h2>Why Choose TaskMaster?</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="icon">📝</div>
+                <h3>Simple Task Management</h3>
+                <p>Create, organize, and track your tasks with our intuitive interface.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🎯</div>
+                <h3>Smart Priorities</h3>
+                <p>Set task priorities and let our AI suggest the best order of completion.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">🔔</div>
+                <h3>Smart Reminders</h3>
+                <p>Never miss a deadline with customizable notifications.</p>
+            </div>
+            <div class="feature-card">
+                <div class="icon">📊</div>
+                <h3>Progress Tracking</h3>
+                <p>Visual insights into your productivity and accomplishments.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-demo">
+        <div class="demo-content">
+            <img src="./assets/landing_page.png" alt="App Demo" class="demo-image">
+            <div class="floating-card task-card">
+                <div class="task-header">Today's Tasks</div>
+                <div class="task-item">✓ Meeting with team</div>
+                <div class="task-item">○ Project deadline</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-carousel">
+            <div class="testimonial-card">
+                <p>"TaskMaster completely changed how I organize my work. Simple yet powerful!"</p>
+                <div class="user">- Sarah J., Product Manager</div>
+            </div>
+            <!-- More testimonials -->
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2>Choose Your Plan</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <h3>Free</h3>
+                <div class="price">$0</div>
+                <ul>
+                    <li>Basic Task Management</li>
+                    <li>5 Projects</li>
+                    <li>Basic Reminders</li>
+                </ul>
+                <button>Get Started</button>
+            </div>
+            <div class="price-card featured">
+                <h3>Pro</h3>
+                <div class="price">$9.99</div>
+                <ul>
+                    <li>Unlimited Projects</li>
+                    <li>Advanced Analytics</li>
+                    <li>Priority Support</li>
+                </ul>
+                <button>Start Free Trial</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>TaskMaster</h4>
+                <p>Making productivity simple and enjoyable.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Links</h4>
+                <a href="#features">Features</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testimonials">Testimonials</a>
+            </div>
+            <div class="footer-section">
+                <h4>Connect</h4>
+                <div class="social-links">
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
